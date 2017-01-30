@@ -1,0 +1,23 @@
+{
+  "name": "spnnr",
+  "version": "0.1.0",
+  "description": "Simple terminal spinner",
+  "author": "Krisztian Nagy <chrisakakay@gmail.com> (http://chrisakakay.github.io/)",
+  "homepage": "https://github.com/chrisakakay/spnnr",
+  "repository": "chrisakakay/spnnr",
+  "bugs": {
+    "url": "https://github.com/chrisakakay/spnnr/issues",
+    "email": "chrisakakay@gmail.com"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js"
+  },
+  "keywords": [
+    "spinner"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.14.1"
+  }
+}
