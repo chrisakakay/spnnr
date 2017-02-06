@@ -1,3 +1,5 @@
+'use strict';
+
 const steps     = '|/-\\';
 const readline  = require('readline');
 const delay     = 100;
@@ -9,7 +11,7 @@ class Spnnr {
     }
 
     start() {
-        this._step       = 0;
+        this._step      = 0;
         this._interval  = setInterval(() => {
             this.tick();
         }, delay);
@@ -23,6 +25,7 @@ class Spnnr {
 
     increaseStep() {
         this._step++;
+
         if (this._step > steps.length - 1) {
             this._step = 0;
         }
