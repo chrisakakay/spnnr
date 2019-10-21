@@ -21,6 +21,6 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^3.14.1"
+    "eslint": "^6.5.1"
   }
 }
